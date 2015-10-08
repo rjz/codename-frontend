@@ -1,0 +1,7 @@
+node_modules
+dist
+travis.log
+npm-debug.log
+*.swp
+coverage
+
