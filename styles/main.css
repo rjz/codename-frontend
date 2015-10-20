@@ -1,0 +1,49 @@
+body {
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  color: #444;
+  display: flex;
+  font-family: 'oxygen mono', 'courier new', monospace;
+  font-size: 12pt;
+  justify-content: center;
+  line-height: 1.4em;
+}
+
+h1 {
+  font-size: 2.0em;
+  margin: 0.6em 0 0.4em;
+}
+
+#codename {
+  cursor: pointer;
+  max-width:600px;
+  padding:20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width:100%;
+}
+
+#codename pre {
+  background-color: #eee;
+  display:block;
+  font-family: ;
+  font-size: 0.8em;
+  line-height:1.5em;
+  padding: 1em;
+  tab-size: 2em;
+  text-align: left;
+  text-transform: none;
+}
+
+#codename .error {
+  border: 1px solid #500;
+  background-color:#900;
+  color: #fff;
+}
+
+#codename .error:empty {
+  display:none;
+}
+
