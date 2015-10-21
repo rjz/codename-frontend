@@ -8,7 +8,7 @@ import { jsonError } from '../test/helpers';
 // Expose runtime promise as global
 window.Promise = Promise;
 
-describe('.fetch', () => {
+xdescribe('.fetch', () => {
 
   beforeEach(() => {
     sinon.stub(window, 'fetch');
